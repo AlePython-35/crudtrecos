@@ -1,8 +1,8 @@
--- ------------------------------------ --- --
--- Alguns testes com CRUD                   --
--- IMPORTANTE! Não use Ctrl+A nestes testes --
--- Teste um comando de cada vez!!
--- ---------------------------------------- --
+-- ----------------------------------------- --
+-- Alguns testes com CRUD                    --
+-- IMPORTANTE! Não use Ctrl+A nestes testes! --
+-- Teste um comando abaixo, de cada vez!     --
+-- ----------------------------------------- --
 
 -- Lista todos os dados de todos usuarios
 SELECT * FROM usuario;
@@ -28,6 +28,6 @@ WHERE u_status != 'del';
 SELECT * FROM treco
 WHERE t_usuario = '1';
 
--- Lista todos os trecos do "Joca" (id = 1) que estejam "online"
-SELECT * FROM treco
+-- Lista todos os trecos do "Joca" (id = 1) que estejam "online" (status = 'on')
+SELECT * FROM treco 
 WHERE t_usuario = '1' AND t_status = 'on';

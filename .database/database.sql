@@ -100,5 +100,3 @@ INSERT INTO treco (t_foto, t_usuario, t_nome, t_descricao, t_localizacao) VALUES
     ('https://picsum.photos/208', '2', 'Estátua de Buda', 'Pequena estátua de Buda de madeira.', 'No altar da sala, cercada de velas.'),
     ('https://picsum.photos/209', '1', 'Bola de Futebol Autografada', 'Bola autografada por um jogador famoso.', 'Na estante da sala, prateleira de cima.'),
     ('https://picsum.photos/210', '2', 'Computador Retro', 'Computador antigo dos anos 80, ainda funcionando.', 'No escritório, em cima da mesa antiga.');
-
-
